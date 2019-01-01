@@ -1,1 +1,5 @@
-./start/node_modules/
+node_modules/
+.DS_Store
+final/.DS_Store
+starter/.DS_Store
+starter/img/.DS_Store
