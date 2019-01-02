@@ -110,3 +110,41 @@
         margin-right: 1rem;
     }
 }
+
+///////////////////////////////////
+// SIDE NAV
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.side-nav {
+    &__item {
+        list-style-type: none;
+    }
+    &__link {
+
+    }
+    &__icon {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    &__label {
+        text-transform: capitalize;
+    }
+}
+
+.legal {
+    font-size: 1.2rem;
+    padding: 2.5rem;
+    align-self: center;
+    color: var(--color-grey-light-4);
+}
+
+///////////////////////////////////
+// HOTEL VIEW
+
+.hotel-view {
+    height: 100vh;
+}
