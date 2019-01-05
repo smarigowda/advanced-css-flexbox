@@ -151,14 +151,19 @@ html {
   margin-top: 3.5rem; }
   .side-nav__item {
     position: relative; }
-  .side-nav__item:before {
+    .side-nav__item:not(:last-child) {
+      margin-bottom: .5rem; }
+  .side-nav__item::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 1px;
-    background-color: var(--color-primary); }
+    background-color: var(--color-primary);
+    transform: scaleY(0); }
+  .side-nav__item:hover::before {
+    transform: scaleY(1); }
   .side-nav__link:link, .side-nav__link:visited {
     color: var(--color-grey-light-1);
     text-decoration: none;
