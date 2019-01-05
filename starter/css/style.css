@@ -60,8 +60,7 @@ html {
 .hotel-view {
   background-color: #fff;
   flex: 1;
-  height: 100vh;
-  background-color: orangered; }
+  height: 100vh; }
 
 .logo {
   height: 3.25rem;
@@ -192,3 +191,9 @@ html {
   align-self: center;
   text-align: center;
   color: var(--color-grey-light-4); }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
