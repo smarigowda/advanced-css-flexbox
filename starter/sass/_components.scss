@@ -120,18 +120,35 @@
     justify-content: space-between;
 }
 .side-nav {
-    &__item {
-        list-style-type: none;
-    }
-    &__link {
+    font-size: 1.4rem;
+    list-style: none;
+    margin-top: 3.5rem;
 
+    &__item {
     }
+    &__link:link,
+    &__link:visited {
+        color: var(--color-grey-light-1);
+        text-decoration: none;
+        display: block;
+        padding: 1.5rem 3rem;
+
+        display: flex;
+        align-items: center;
+    }
+
+    // &__link:hover {
+    //     color: orangered;
+    // }
+
     &__icon {
         width: 2.75rem;
         height: 2.75rem;
+        margin-right: 2rem;
+        fill: currentColor;
     }
     &__label {
-        text-transform: capitalize;
+        text-transform: uppercase;
     }
 }
 

@@ -145,15 +145,24 @@ html {
   flex-direction: column;
   justify-content: space-between; }
 
-.side-nav__item {
-  list-style-type: none; }
-
-.side-nav__icon {
-  width: 2.75rem;
-  height: 2.75rem; }
-
-.side-nav__label {
-  text-transform: capitalize; }
+.side-nav {
+  font-size: 1.4rem;
+  list-style: none;
+  margin-top: 3.5rem; }
+  .side-nav__link:link, .side-nav__link:visited {
+    color: var(--color-grey-light-1);
+    text-decoration: none;
+    display: block;
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center; }
+  .side-nav__icon {
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-right: 2rem;
+    fill: currentColor; }
+  .side-nav__label {
+    text-transform: uppercase; }
 
 .legal {
   font-size: 1.2rem;
