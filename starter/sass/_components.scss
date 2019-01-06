@@ -228,6 +228,14 @@
         height: 1.75rem;
         fill: var(--color-primary);
     }
+    &__icon-location {
+        margin-right: .5rem;
+    }
+    &__location {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+    }
     &__rating {
         &-average {
 
