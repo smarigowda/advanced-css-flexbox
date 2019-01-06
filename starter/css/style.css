@@ -223,6 +223,23 @@ html {
     font-size: 1.2rem;
     display: flex;
     align-items: center; }
+  .overview__rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    padding: 0 2.25rem;
+    background-color: var(--color-primary);
+    color: #fff;
+    margin-left: 3rem;
+    margin-bottom: -3px; }
+    .overview__rating-average {
+      font-size: 2.25rem;
+      font-weight: 300; }
+    .overview__rating-count {
+      font-size: .95rem;
+      text-transform: uppercase; }
 
 .btn-inline {
   border: none;
