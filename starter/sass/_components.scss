@@ -270,8 +270,16 @@
     background-color: transparent;
     cursor: pointer;
     transition: all .2s;
+    & span {
+        margin-left: 3px;
+        transition: margin-left .2s;
+    }
     &:hover {
         color: var(--color-grey-dark-1);
+
+        & span {
+            margin-left: 8px;
+        }
     }
     &:focus {
         outline: none;
@@ -371,10 +379,9 @@
 .review {
     position: relative;
     overflow: hidden;
-
-    background-color: #fff;
     box-shadow: var(--shadow-light);
-    margin-bottom: 3rem;
+    background-color: #fff;
+    margin-bottom: 3.5rem;
     padding: 3rem;
     &__text { // top level
         margin-bottom: 2rem;
@@ -385,7 +392,6 @@
     &__user { // top level
         display: flex;
         align-items: center;
-
     }
     &__photo {
         width: 4.5rem;
